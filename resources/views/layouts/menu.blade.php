@@ -8,7 +8,7 @@
 
             <a class="nav-link active" href="#">Home</a>
             <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="{{ asset('posts') }}">Posts</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                 <span class="navbar-toggler-icon"></span>
             </button>
